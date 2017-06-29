@@ -1,0 +1,225 @@
+/*navbar*/
+.navbar {
+    background-color: #242424;
+    border-bottom: 1px solid #7fc2f4;
+}
+.navbar a {
+    color: #ccc !important;
+}
+.navbar a:hover {
+    background-color: #646464 !important;
+    color: #fff !important;
+}
+.navbar .navbar-brand {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.navbar {
+    margin: 0;
+}
+/*end navbar*/
+
+/* home*/
+.home {
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0 330px 0;
+    magin: 0;
+}
+.home h4  a{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.home .btn-button ul li a button {
+    background-color: transparent;
+    padding: 6px 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.home .btn-button ul li a button:hover {
+    background-color: rgba(255, 0, 0, 0.51);
+    color: white !important;
+}
+/*end home*/
+
+/*about*/
+.about {
+    background-color: rgba(238, 238, 238, 0.28);
+    padding: 30px 0;
+}
+.about img {
+    width: 307px;
+    height: 282px;
+    margin-top: 60px;
+}
+.about .abouttitle {
+    font-size: 27px;
+    font-weight: 700;
+    color: #7fc2f4;
+}
+.about .about-title strong {
+    font-size: 26px;
+    color: #7fc2f4;
+    font-family: 'Lato', sans-serif;
+}
+.about .about-title p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #ccc !important;
+}
+.about .about-title .code-title {
+    color: rgba(255, 0, 0, 0.51);
+}
+.about .about-title {
+    margin-top:40px;
+    background-color: #242424;
+    padding: 30px 20px;
+}
+.about .desktop i {
+    color: black;
+    margin-top: 170px;
+}
+.about .mobile i {
+    color: black;
+    margin-top: 40px;
+}
+/*end about*/
+
+/*experience*/
+.experience {
+    background-image: url("img/developer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.experience h2 {
+    color: #7fc2f4;
+    font-weight:700;
+}
+/*end experience*/
+
+/*myhobbies*/
+.myhobbies {
+    padding: 20px 0;
+}
+.myhobbies .myhobbiestitle {
+    font-size: 27px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #7fc2f4;
+}
+.myhobbies .coding img {
+    width: 100%;
+    height: auto;
+}
+.myhobbies .codetitle {
+    padding: 1px 0 3px 0;
+}
+.myhobbies .codetitle h4 {
+    font-weight: 700;
+    padding-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+}
+.myhobbies .photo img {
+    width: 100%;
+    height: 303px;
+}
+.myhobbies .phototitle {
+    padding: 1px 0 3px 0;
+}
+.myhobbies .phototitle h4 {
+    font-weight: 700;
+    padding-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+}
+.myhobbies .game img {
+    width: 100%;
+    height: 303px;
+}
+.myhobbies .gametitle {
+    padding: 1px 0 3px 0;
+}
+.myhobbies .gametitle h4 {
+    font-weight: 700;
+    padding-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+}
+.myhobbies .read img {
+    width: 100%;
+    height: 303px;
+}
+.myhobbies .readtitle {
+    padding: 1px 0 3px 0;
+}
+.myhobbies .readtitle h4 {
+    font-weight: 700;
+    padding-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+}
+/*end myhobbies*/
+
+/*contact*/
+.contact .contacttitle {
+    font-size: 27px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #7fc2f4;
+}
+.contact {
+    padding: 100px 0 0 0;
+    background-image: url("img/contact.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact .website .follow a {
+    color: grey;
+}
+.contact .website .follow .facebook a:hover {
+    color: #3B5998;
+
+}
+.contact .website .follow .google-plus a:hover {
+    color: #CE3525;
+}
+.contact .website .follow .pinterest a:hover {
+    color: #CE3525;
+}
+.contact .website .follow .github a:hover {
+    color: #0D2636;
+}
+.contact .website h1 i {
+    color: white;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.contact .website span a {
+    color: #7fc2f4;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.contact .website span a:hover {
+    color: #00787A;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
+    text-decoration: none;
+}
+/*end contact*/
+
+/*footer*/
+.footer {
+    margin-top: 80px;
+    color: grey;
+    font-size: 15px;
+}
+/*end footer*/
